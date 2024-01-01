@@ -1,0 +1,25 @@
+uuid: 3597ab12-543d-483d-8bb5-6777fcc2cb36
+langcode: hu
+status: true
+dependencies:
+  content:
+    - 'block_content:html_blokk:f9b0bcf6-8444-4876-8af7-61155ed36a6c'
+  module:
+    - block_content
+  theme:
+    - fabianmaria
+id: fabianmaria_fabianmarialogo
+theme: fabianmaria
+region: header
+weight: -4
+provider: null
+plugin: 'block_content:f9b0bcf6-8444-4876-8af7-61155ed36a6c'
+settings:
+  id: 'block_content:f9b0bcf6-8444-4876-8af7-61155ed36a6c'
+  label: 'Fábián Mária logó'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

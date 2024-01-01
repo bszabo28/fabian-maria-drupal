@@ -1,0 +1,22 @@
+uuid: 2ecf1900-438e-4d74-b190-dd2b953ebb87
+langcode: hu
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - stark
+_core:
+  default_config_hash: VhBzWb7lMRtIOg9G7VSw_0uopi-7zXeHq4vXqqV1HFE
+id: stark_breadcrumbs
+theme: stark
+region: breadcrumb
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Morzsák
+  label_display: '0'
+  provider: system
+visibility: {  }

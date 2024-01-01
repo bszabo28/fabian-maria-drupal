@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400;700;900&family=Open+Sans:ital@0;1&family=Roboto:ital,wght@0,400;0,700;0,900;1,400&display=swap');
+/* @config "../tailwind.config.js"; */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+header[role="banner"] > div {
+        top: var(--drupal-displace-offset-top, 0);
+}
+
+/* .layout-container {
+        height: calc(100vh - var(--drupal-displace-offset-top));
+} */

@@ -1,0 +1,22 @@
+uuid: 5e3aeb16-1757-4c97-a857-d97aef149432
+langcode: hu
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - fabianmaria
+_core:
+  default_config_hash: VhBzWb7lMRtIOg9G7VSw_0uopi-7zXeHq4vXqqV1HFE
+id: fabianmaria_breadcrumbs
+theme: fabianmaria
+region: breadcrumb
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Morzsák
+  label_display: '0'
+  provider: system
+visibility: {  }

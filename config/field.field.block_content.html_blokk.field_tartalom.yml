@@ -1,0 +1,24 @@
+uuid: 15547fc9-0312-41a9-9f07-705db2011db9
+langcode: hu
+status: true
+dependencies:
+  config:
+    - block_content.type.html_blokk
+    - field.storage.block_content.field_tartalom
+    - filter.format.full_html
+  module:
+    - text
+id: block_content.html_blokk.field_tartalom
+field_name: field_tartalom
+entity_type: block_content
+bundle: html_blokk
+label: Tartalom
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats:
+    - full_html
+field_type: text_long

@@ -1,0 +1,20 @@
+uuid: c0b6a739-b6ae-4a8c-a975-33e3522e2f34
+langcode: hu
+status: true
+dependencies:
+  theme:
+    - claro
+_core:
+  default_config_hash: CdXfDmRgAvms7EQovxxWPdYi0GitxeRbVtScYK16ZH0
+id: claro_local_actions
+theme: claro
+region: content
+weight: -10
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Elsődleges adminisztrátori műveletek'
+  label_display: '0'
+  provider: core
+visibility: {  }

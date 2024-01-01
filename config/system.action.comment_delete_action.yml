@@ -1,0 +1,13 @@
+uuid: 3415f65d-7355-473a-97d2-93428b7049ce
+langcode: hu
+status: true
+dependencies:
+  module:
+    - comment
+_core:
+  default_config_hash: vpBH8OmL4sdesCdeZLsW8KOutB5gkbreWJbfjhfFKaQ
+id: comment_delete_action
+label: 'Hozzászólás törlése'
+type: comment
+plugin: 'entity:delete_action:comment'
+configuration: {  }

@@ -1,0 +1,20 @@
+uuid: 875375b3-d924-402c-95bd-33253dd2fb47
+langcode: hu
+status: false
+dependencies:
+  theme:
+    - fabianmaria
+_core:
+  default_config_hash: 6aOgWsNTXjqrDm98TXSAjP6qd2nCijD1xw45MrnbK-Y
+id: fabianmaria_page_title
+theme: fabianmaria
+region: content
+weight: -6
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Oldal címe'
+  label_display: '0'
+  provider: core
+visibility: {  }

@@ -1,0 +1,10 @@
+uuid: 90774f4f-a180-4139-938d-62e3082bdb4f
+langcode: hu
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: yoNVreoTdTZTY7GuE8fI9Jmxqdz8vlo4ZJKixMNSosw
+name: Címkék
+vid: tags
+description: 'Címkék használata a hasonló témájú tartalmak csoportosításához.'
+weight: 0

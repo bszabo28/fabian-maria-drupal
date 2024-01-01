@@ -1,0 +1,26 @@
+uuid: 0020a98e-19b3-4d60-9014-fef3bd8ae6fc
+langcode: hu
+status: true
+dependencies:
+  content:
+    - 'block_content:html_blokk:6d1d64fb-1aa9-4cca-867d-22f2e04ad375'
+  module:
+    - block_class
+    - block_content
+  theme:
+    - fabianmaria
+id: fabianmaria_fooldalibannerszovegesresze
+theme: fabianmaria
+region: welcome
+weight: -5
+provider: null
+plugin: 'block_content:6d1d64fb-1aa9-4cca-867d-22f2e04ad375'
+settings:
+  id: 'block_content:6d1d64fb-1aa9-4cca-867d-22f2e04ad375'
+  label: 'Főoldali banner szöveges része'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

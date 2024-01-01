@@ -1,0 +1,13 @@
+uuid: 29a2467d-d818-4640-b503-2ae42cde24d6
+langcode: hu
+status: false
+dependencies:
+  module:
+    - block_content
+_core:
+  default_config_hash: Q7yUUYeRLByl-MCGveKKF_KhAtNICLCMJuKWfugCvso
+id: block_content.full
+label: Teljes
+description: ''
+targetEntityType: block_content
+cache: true

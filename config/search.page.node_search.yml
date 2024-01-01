@@ -1,0 +1,15 @@
+uuid: 5e4d30ad-83df-4f7e-926d-6d2d82971397
+langcode: hu
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: 97tvtzGOa8_flb22CzSjgtm_YkiGMHvEBO-6q2K9V_U
+id: node_search
+label: Tartalom
+path: node
+weight: -10
+plugin: node_search
+configuration:
+  rankings: {  }

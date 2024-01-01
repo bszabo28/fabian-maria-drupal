@@ -1,0 +1,22 @@
+uuid: 46a3e29c-e410-48d5-b367-6ba591f5d3bb
+langcode: hu
+status: false
+dependencies:
+  theme:
+    - fabianmaria
+_core:
+  default_config_hash: nGE3EoPQQaQCuqTUtZgw0-KIzmrqdKDzdNQf2JyPUt4
+id: fabianmaria_primary_local_tasks
+theme: fabianmaria
+region: content
+weight: -5
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Elsődleges fülek'
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: false
+visibility: {  }

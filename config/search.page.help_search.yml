@@ -1,0 +1,14 @@
+uuid: fe6aa293-d8b7-450c-8b61-a2f6a761c17d
+langcode: hu
+status: true
+dependencies:
+  module:
+    - help
+_core:
+  default_config_hash: RZ-bcSekNSsAbIPLW7Gmyd3uUjIOSrPvnb8RCCZYJm8
+id: help_search
+label: Súgó
+path: help
+weight: 0
+plugin: help_search
+configuration: {  }

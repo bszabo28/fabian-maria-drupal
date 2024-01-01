@@ -1,0 +1,8 @@
+uuid: 6dfc097d-f68c-41f8-9dc3-244fb3dae179
+langcode: hu
+status: true
+dependencies: {  }
+id: html_blokk
+label: 'HTML blokk'
+revision: 0
+description: ''

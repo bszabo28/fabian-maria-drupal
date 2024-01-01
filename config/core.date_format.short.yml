@@ -1,0 +1,10 @@
+uuid: 5145190b-6295-4a17-953a-9874d1b947e0
+langcode: hu
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: AlzeyytA8InBgxIG9H2UDJYs3CG98Zj6yRsDKmlbZwA
+id: short
+label: 'Alapértelmezett rövid dátum idővel'
+locked: false
+pattern: 'Y. m. d. – H:i'

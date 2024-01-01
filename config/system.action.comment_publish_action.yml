@@ -1,0 +1,13 @@
+uuid: b6c7e9bc-1c4b-43e3-adeb-89d39a7f5c4c
+langcode: hu
+status: true
+dependencies:
+  module:
+    - comment
+_core:
+  default_config_hash: C00dyL_W_5M0nFlgUB3lWUTUs96jn51Jw1MLHVEHZD0
+id: comment_publish_action
+label: 'Hozzászólás közzététele'
+type: comment
+plugin: 'entity:publish_action:comment'
+configuration: {  }

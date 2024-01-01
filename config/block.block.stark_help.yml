@@ -1,0 +1,22 @@
+uuid: 1f067d6f-4aed-4782-9fa5-f9d434bb3af3
+langcode: hu
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - stark
+_core:
+  default_config_hash: VfPFqqxfkomud5CO8DUijw85QIl9GIxh_nIxLOYESxg
+id: stark_help
+theme: stark
+region: sidebar_first
+weight: 0
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Súgó
+  label_display: '0'
+  provider: help
+visibility: {  }

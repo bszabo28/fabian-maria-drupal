@@ -1,0 +1,22 @@
+uuid: c3157340-0665-4f42-8707-7976cc2972f7
+langcode: hu
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - fabianmaria
+_core:
+  default_config_hash: erQSEZF2XUjNmgTl0uNRBzmg18ZGXwUcw2FhApoeuHk
+id: fabianmaria_content
+theme: fabianmaria
+region: content
+weight: -2
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Az oldal fő tartalma'
+  label_display: '0'
+  provider: system
+visibility: {  }

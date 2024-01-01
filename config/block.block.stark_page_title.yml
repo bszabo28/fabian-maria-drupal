@@ -1,0 +1,20 @@
+uuid: 5aa6e4b9-cdaa-471c-bba5-e368214e77d4
+langcode: hu
+status: true
+dependencies:
+  theme:
+    - stark
+_core:
+  default_config_hash: 6aOgWsNTXjqrDm98TXSAjP6qd2nCijD1xw45MrnbK-Y
+id: stark_page_title
+theme: stark
+region: sidebar_first
+weight: -5
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Oldal címe'
+  label_display: '0'
+  provider: core
+visibility: {  }

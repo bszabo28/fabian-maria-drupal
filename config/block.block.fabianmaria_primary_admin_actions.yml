@@ -1,0 +1,20 @@
+uuid: 26e951dc-590f-4f91-96d7-a211d02bf5dc
+langcode: hu
+status: false
+dependencies:
+  theme:
+    - fabianmaria
+_core:
+  default_config_hash: Q9_2whdOj1YIomfvsIfopROW4FT_X5pY0DjdOiOaQ5U
+id: fabianmaria_primary_admin_actions
+theme: fabianmaria
+region: content
+weight: -4
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Elsődleges adminisztrátori műveletek'
+  label_display: '0'
+  provider: core
+visibility: {  }

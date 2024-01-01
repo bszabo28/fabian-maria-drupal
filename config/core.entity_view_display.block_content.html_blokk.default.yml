@@ -1,0 +1,23 @@
+uuid: 50d22004-3b72-4c17-9f41-844eafc0ee2a
+langcode: hu
+status: true
+dependencies:
+  config:
+    - block_content.type.html_blokk
+    - field.field.block_content.html_blokk.field_tartalom
+  module:
+    - text
+id: block_content.html_blokk.default
+targetEntityType: block_content
+bundle: html_blokk
+mode: default
+content:
+  field_tartalom:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  langcode: true

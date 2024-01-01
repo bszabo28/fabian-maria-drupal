@@ -1,0 +1,11 @@
+uuid: f1db71e2-af04-4c90-a43e-9b2a44fa45d6
+langcode: hu
+status: true
+dependencies:
+  config:
+    - block_content.type.html_blokk
+id: block_content.html_blokk
+target_entity_type_id: block_content
+target_bundle: html_blokk
+default_langcode: site_default
+language_alterable: false

@@ -1,0 +1,20 @@
+name: Fábián Mária téma
+type: theme
+base theme: stark
+description: Tailwind téma
+package: Custom
+core_version_requirement: ^10
+libraries:
+  - fabianmaria/global
+regions:
+  header: 'Fejléc (logó és elsődleges menü)'
+  welcome: 'Főoldal üdvözlő rész'
+  secondary_menu: 'Secondary menu'
+  page_top: 'Page top'
+  page_bottom: 'Page bottom'
+  featured: 'Featured'
+  breadcrumb: 'Breadcrumb'
+  content: 'Content'
+  sidebar_first: 'Sidebar first'
+  sidebar_second: 'Sidebar second'
+  footer: 'Footer'

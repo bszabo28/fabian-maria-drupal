@@ -1,0 +1,22 @@
+uuid: 923302c8-be6f-438f-8836-6166eb1a6670
+langcode: hu
+status: true
+dependencies:
+  theme:
+    - stark
+_core:
+  default_config_hash: nGE3EoPQQaQCuqTUtZgw0-KIzmrqdKDzdNQf2JyPUt4
+id: stark_primary_local_tasks
+theme: stark
+region: highlighted
+weight: -4
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Elsődleges fülek'
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: false
+visibility: {  }

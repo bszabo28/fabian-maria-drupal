@@ -1,0 +1,13 @@
+uuid: b8121570-7799-46af-8cd1-e66250859ca3
+langcode: hu
+status: false
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: d8wBEm7XvJ6H3S0IneDD9PfTBklPIH7GMpxElVemPf8
+id: node.search_result
+label: 'Keresési eredmény, a keresett szó kiemelve'
+description: ''
+targetEntityType: node
+cache: true

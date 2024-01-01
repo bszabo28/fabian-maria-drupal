@@ -1,0 +1,22 @@
+uuid: 0cefffa5-83d0-4067-82e7-f7a3277ae58f
+langcode: hu
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - claro
+_core:
+  default_config_hash: jccFSSVqV0WCDb6NtML1VWAWTtDbZ-zn5YgTRMgMrIM
+id: claro_help
+theme: claro
+region: help
+weight: 0
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Súgó
+  label_display: '0'
+  provider: help
+visibility: {  }
